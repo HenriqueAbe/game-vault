@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "Game Vault",
+    "slug": "game-vault",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0E1619",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.exemplo.gamevault"
+    },
+    "android": {
+      "package": "com.exemplo.gamevault"
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": ["expo-secure-store"]
+  }
+}
